@@ -5,7 +5,7 @@ lower = t_no * 17475
 upper = (t_no+1) * 17475
 
 s = requests.Session()
-f = open('rpass.txt')
+f = open('pass-list.txt')
 passwd = f.readlines()
 
 print('started...')
